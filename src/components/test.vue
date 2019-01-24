@@ -1,9 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <img src="@/assets/ss.png"/>
-    <img src="../assets/ss.png"/>
-    <img src="static/img/gg.jpeg"/>
+    <img src="@/assets/img/ss.png"/>
+    <img src="../assets/img/ss.png"/>
     <div class="test-div"></div>
   </div>
 </template>
