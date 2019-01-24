@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import test from '@/components/test'
 
-document.addEventListener('DOMContentLoaded', function() {
-  if (window.FastClick) window.FastClick.attach(document.body);
-}, false);
+document.addEventListener('DOMContentLoaded', function () {
+  if (window.FastClick) window.FastClick.attach(document.body)
+}, false)
 
 Vue.use(Router)
 
@@ -15,19 +15,19 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
+      name: 'HelloWorld1',
       component: HelloWorld,
       meta: {
         title: '首页'
-      },
+      }
     },
     {
       path: '/HelloWorld',
-      name: 'HelloWorld',
+      name: 'HelloWorld2',
       component: HelloWorld,
       meta: {
         title: '首页'
-      },
+      }
     },
     {
       path: '/test',
@@ -35,7 +35,7 @@ export default new Router({
       component: test,
       meta: {
         title: '哈哈'
-      },
+      }
     }
   ]
 })

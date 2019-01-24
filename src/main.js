@@ -3,11 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import "lib-flexible/flexible"
-import "./assets/base.css"
-import vueWechatTitle from "vue-wechat-title"
-import axios from "axios"
-import qs from "qs"
+// import 'lib-flexible/flexible'
+import './assets/base.css'
+import 'normalize.css'
+import vueWechatTitle from 'vue-wechat-title'
+import axios from 'axios'
+import qs from 'qs'
 
 Vue.prototype.axios = axios
 Vue.prototype.qs = qs

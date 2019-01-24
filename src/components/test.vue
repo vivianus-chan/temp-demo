@@ -21,7 +21,6 @@ export default {
 <style scoped>
 h1{
   color: red;
-  height: 75px;
 }
 img {
   width: 100%;

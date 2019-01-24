@@ -34,6 +34,7 @@ html {
 body {
   height: 100%;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow: scroll;
   font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "宋体";
 }

@@ -12,7 +12,10 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "clipboard": "^2.0.4",
     "lib-flexible": "^0.3.2",
+    "normalize.css": "^8.0.1",
     "px2rem-loader": "^0.1.9",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
