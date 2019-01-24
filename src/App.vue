@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <transition name="slide-fade">
+      <!-- <router-view v-wechat-title="$route.meta.title" img-set="/static/logo.png"/> -->
+      <router-view v-wechat-title="$route.meta.title" img-set="/static/logo.png"/>
+    </transition>
   </div>
 </template>
 
