@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <img src="@/assets/img/ss.png"/>
     <img src="../assets/img/ss.png"/>
+    <img :src="waterSrc" />
     <div class="test-div"></div>
   </div>
 </template>
@@ -11,7 +12,8 @@
 export default {
   data () {
     return {
-      msg: 'test page h'
+      msg: 'test page h',
+      waterSrc: './static/image/WechatIMG3.jpg'
     }
   }
 }
