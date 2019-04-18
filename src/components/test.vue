@@ -47,4 +47,9 @@ h1{
 img {
   width: 100%;
 }
+.hello {
+  img {
+    width: 50%;
+  }
+}
 </style>
